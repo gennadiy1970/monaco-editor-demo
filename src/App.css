@@ -1,0 +1,30 @@
+body {
+  background-color: #1b5e20;
+  font-size: 20px;
+}
+
+.monaco-editor {
+  padding: 1rem;
+}
+
+.myInlineDecoration {
+  color: red !important;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.myLineDecoration {
+  background: lightblue;
+  width: 5px !important;
+  margin-left: 3px;
+}
+
+
+.disable .monaco-editor ,
+.disable .monaco-editor .margin,
+.disable .monaco-editor .minimap,
+.disable .monaco-editor-background {
+  background-color: #161d2a !important;
+}
